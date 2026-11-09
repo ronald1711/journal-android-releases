@@ -1,0 +1,9 @@
+{
+  "versionCode": 25,
+  "versionName": "1.19",
+  "minSdk": 26,
+  "apkUrl": "https://github.com/ronald1711/journal-android-releases/releases/latest/download/Journal.apk",
+  "sha256": "053153b4189caf1016fec0437ba18c3142b1ddfc91ada947ee6fa25df57fd85e",
+  "releaseNotes": "Journal 1.19: Garmin-trends en beheer, gewicht/voeding/cyclus, aparte activiteiten en planner-koppeling; AI-promptbibliotheek, dagelijkse/weekelijkse digest, fallback-provider, antwoord opslaan en consent per provider.",
+  "publishedAt": "2026-11-09T18:12:00Z"
+}
