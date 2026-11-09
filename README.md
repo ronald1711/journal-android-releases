@@ -23,10 +23,12 @@ staan voor Journal.
 
 ## Updates
 
-De app kan `latest.json` controleren, `versionCode` vergelijken, de APK
-downloaden, SHA-256 en de APK-signatuur verifiëren en daarna de systeem-
-installer openen. Stille installatie is op Android niet mogelijk zonder
-MDM/device-owner. Zie `OTA-PLAN.md` in de private bronrepo.
+Vanaf Journal 1.20: **Instellingen → Over Journal en updates → Controleer op
+updates**. De app vergelijkt `versionCode`, downloadt de APK, verifieert SHA-256
+en de APK-signatuur en opent daarna de systeem-installer. Stille installatie is
+op Android niet mogelijk zonder MDM/device-owner.
+
+1.19 kan zichzelf nog niet updaten; installeer 1.20 eenmalig handmatig.
 
 ## Privacy
 
