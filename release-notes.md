@@ -1,24 +1,21 @@
-# Journal 1.19
+# Journal 1.20
 
-## Garmin
-- Garmin-trends met 7/14/30 dagen: slaap, slaapscore, stappen, rusthartslag,
-  stress, HRV, Body Battery en gewicht.
-- Slaap/energie-correlatie op basis van je check-ins.
-- Garmin-dagen en -activiteiten apart openen, bewerken of verwijderen.
-- Gewicht, voeding (kcal en macro's), cyclus, hydratatie en SpO2 importeren.
-- Activiteiten als aparte entries en optioneel als voltooide planner-taak.
-- Automatische sync bij openen (max. 1× per 6 uur) en dagelijkse achtergrondsync,
-  met melding bij een verlopen key.
+## Nieuw
+- **Over Journal en updates** in Instellingen.
+- **Controleer op updates** leest het publieke manifest.
+- Toont versie en release-opmerkingen.
+- Downloadt de APK naar de app-cache.
+- Verifieert **SHA-256**, package-id, versieCode en de **APK-signatuur**.
+- Opent daarna de Android-installer; bij “onbekende bronnen” word je naar de
+  juiste instelling gestuurd.
+- Na installatie blijven al je gegevens behouden (zelfde package en signing-key).
 
-## AI
-- Promptbibliotheek met opgeslagen en eigen prompts.
-- Dagelijkse en wekelijkse digestmeldingen (opt-in).
-- Fallback-provider bij limiet- of providerfouten.
-- AI-antwoord bewaren als journal-notitie.
-- Toestemming per provider.
-- Kosten/tokens, maandbudget, context-preview, streaming/stop en versleutelde
-  gespreksopslag uit 1.18 blijven aanwezig.
+## Belangrijk
+- 1.19 kan zichzelf nog niet updaten; installeer 1.20 eenmalig handmatig.
+- Daarna kunnen toekomstige versies via de app worden gecontroleerd en
+  gedownload.
+- Stille installatie is op Android niet mogelijk zonder MDM/device-owner.
 
-## Installatie
-Download `Journal.apk` en installeer bovenop de bestaande Journal-app. De
-signing-key en package-id zijn gelijk, dus je gegevens blijven behouden.
+## Signing
+Zelfde key als 1.19; APK-SHA-256:
+`5cc04c53d52aace1e56a8126aea344658196a14003f2580f62093543d1ebbca8`.
