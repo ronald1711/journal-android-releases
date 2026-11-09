@@ -1,9 +1,9 @@
 {
-  "versionCode": 26,
-  "versionName": "1.20",
+  "versionCode": 29,
+  "versionName": "1.23",
   "minSdk": 26,
   "apkUrl": "https://github.com/ronald1711/journal-android-releases/releases/latest/download/Journal.apk",
-  "sha256": "5cc04c53d52aace1e56a8126aea344658196a14003f2580f62093543d1ebbca8",
-  "releaseNotes": "Journal 1.20: in-app updatechecker met manifest, download, SHA-256- en APK-signatuurverificatie en de Android-installer. Verder alle Garmin- en AI-uitbreidingen uit 1.19.",
-  "publishedAt": "2026-11-09T18:28:00Z"
+  "sha256": "1d20e52156e563e96eb1565df09d46125ead41f57541cdcab91c95972cbfbee2",
+  "releaseNotes": "Journal 1.23: AI-fixes voor reasoning-modellen (geen 'null'-tekst, geen valse 'geen antwoord'-fout, non-streaming retry) en een instelbaar tokenbudget. Inclusief de in-app updatechecker uit 1.20.",
+  "publishedAt": "2026-11-09T19:36:00Z"
 }

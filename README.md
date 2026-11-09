@@ -24,7 +24,7 @@ staan voor Journal.
 ## Updates
 
 Vanaf Journal 1.20: **Instellingen → Over Journal en updates → Controleer op
-updates**. De app vergelijkt `versionCode`, downloadt de APK, verifieert SHA-256
+updates**. Laatste release: **1.23** (AI-fixes voor reasoning-modellen). De app vergelijkt `versionCode`, downloadt de APK, verifieert SHA-256
 en de APK-signatuur en opent daarna de systeem-installer. Stille installatie is
 op Android niet mogelijk zonder MDM/device-owner.
 

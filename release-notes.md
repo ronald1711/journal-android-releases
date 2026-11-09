@@ -1,21 +1,22 @@
-# Journal 1.20
+# Journal 1.23
 
-## Nieuw
-- **Over Journal en updates** in Instellingen.
-- **Controleer op updates** leest het publieke manifest.
-- Toont versie en release-opmerkingen.
-- Downloadt de APK naar de app-cache.
-- Verifieert **SHA-256**, package-id, versieCode en de **APK-signatuur**.
-- Opent daarna de Android-installer; bij “onbekende bronnen” word je naar de
-  juiste instelling gestuurd.
-- Na installatie blijven al je gegevens behouden (zelfde package en signing-key).
+## AI-fixes
+- Geen `null`-tekst meer wanneer een provider `content: null` stuurt tijdens
+  de reasoning-fase.
+- Geen valse **“De provider gaf geen antwoord”** meer bij reasoning- of
+  niet-streamende modellen; de app probeert het eenmalig zonder streaming.
+- Reasoning-tekst wordt niet meer als eindantwoord getoond.
+- Het antwoordtokenbudget is instelbaar onder **AI → Kosten/budget**; de oude
+  standaard van 700 tokens wordt naar 2000 verhoogd, zodat reasoning-modellen
+  ruimte houden voor het echte antwoord.
+- DeepSeek `deepseek-flash` werkt; OpenRouter-gratis modellen kunnen een
+  429-rate limit geven.
 
-## Belangrijk
-- 1.19 kan zichzelf nog niet updaten; installeer 1.20 eenmalig handmatig.
-- Daarna kunnen toekomstige versies via de app worden gecontroleerd en
-  gedownload.
-- Stille installatie is op Android niet mogelijk zonder MDM/device-owner.
+## Updates
+- Inclusief de in-app updatechecker uit 1.20: **Instellingen → Over Journal en
+  updates**.
+- 1.19 kan zichzelf nog niet updaten; 1.20/1.21/1.22 kunnen dat wel.
 
 ## Signing
-Zelfde key als 1.19; APK-SHA-256:
-`5cc04c53d52aace1e56a8126aea344658196a14003f2580f62093543d1ebbca8`.
+Zelfde key; APK-SHA-256:
+`1d20e52156e563e96eb1565df09d46125ead41f57541cdcab91c95972cbfbee2`.
