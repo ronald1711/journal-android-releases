@@ -1,22 +1,33 @@
-# Journal 1.23
+# Journal 1.24
 
-## AI-fixes
-- Geen `null`-tekst meer wanneer een provider `content: null` stuurt tijdens
-  de reasoning-fase.
-- Geen valse **“De provider gaf geen antwoord”** meer bij reasoning- of
-  niet-streamende modellen; de app probeert het eenmalig zonder streaming.
-- Reasoning-tekst wordt niet meer als eindantwoord getoond.
-- Het antwoordtokenbudget is instelbaar onder **AI → Kosten/budget**; de oude
-  standaard van 700 tokens wordt naar 2000 verhoogd, zodat reasoning-modellen
-  ruimte houden voor het echte antwoord.
-- DeepSeek `deepseek-flash` werkt; OpenRouter-gratis modellen kunnen een
-  429-rate limit geven.
+## Privacy en toestemming
+- Een achtergrond- of chatverzoek kan niet langer een eerder ingetrokken
+  AI-toestemming of gewijzigde privacy-/digest-instellingen herstellen.
+- Het maandverbruik wordt nu atomair bijgewerkt, zodat gelijktijdige
+  verzoeken elkaar niet overschrijven; een gewone instellingenopslag raakt
+  het verbruik niet meer aan.
 
-## Updates
-- Inclusief de in-app updatechecker uit 1.20: **Instellingen → Over Journal en
-  updates**.
-- 1.19 kan zichzelf nog niet updaten; 1.20/1.21/1.22 kunnen dat wel.
+## Backup en herstellen
+- Nieuwe **volledige backup** (inclusief foto's en dagboekkoppeling) naast de
+  bestaande Day One JSON-, CSV-, tekst- en Markdown-exports.
+- **Backup herstellen** importeert de backup en schrijft media terug naar de
+  app-opslag; bij een mislukte opslag blijft de oude data intact.
+- De pincode wordt bewust niet in het gedeelde backupbestand opgenomen.
+
+## AI-antwoorden
+- Afgebroken of foutief afgesloten streams worden niet meer als compleet
+  antwoord opgeslagen of gefactureerd; een ontbrekende `[DONE]` of een
+  providerfout wordt nu als fout gemeld.
+
+## Overzichten (digests)
+- Dag- en weekoverzichten worden volledig bewaard (geen 300-teken-afkap meer)
+  en openen via de melding in een eigen overzichtscherm.
+- Android 13+ vraagt meldingstoestemming wanneer je een overzicht inschakelt.
+
+## Verwijderen
+- Een mislukte opslag bij het verwijderen rolt de notitie terug en meldt de
+  fout, in plaats van de notitie stilletjes te sluiten.
 
 ## Signing
 Zelfde key; APK-SHA-256:
-`1d20e52156e563e96eb1565df09d46125ead41f57541cdcab91c95972cbfbee2`.
+`6ca8b20dba77384b436daa315652ed035deb407083699911406f46664af755a8`.

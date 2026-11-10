@@ -1,9 +1,9 @@
 {
-  "versionCode": 29,
-  "versionName": "1.23",
+  "versionCode": 30,
+  "versionName": "1.24",
   "minSdk": 26,
   "apkUrl": "https://github.com/ronald1711/journal-android-releases/releases/latest/download/Journal.apk",
-  "sha256": "1d20e52156e563e96eb1565df09d46125ead41f57541cdcab91c95972cbfbee2",
-  "releaseNotes": "Journal 1.23: AI-fixes voor reasoning-modellen (geen 'null'-tekst, geen valse 'geen antwoord'-fout, non-streaming retry) en een instelbaar tokenbudget. Inclusief de in-app updatechecker uit 1.20.",
-  "publishedAt": "2026-11-09T19:36:00Z"
+  "sha256": "6ca8b20dba77384b436daa315652ed035deb407083699911406f46664af755a8",
+  "releaseNotes": "Journal 1.24: privacy- en betrouwbaarheidsfixes. AI-verbruik overschrijft niet langer je toestemming of privacy-instellingen; volledige backup inclusief foto's met herstellen; afgebroken AI-antwoorden worden niet meer als compleet opgeslagen; dag- en weekoverzichten blijven volledig bewaard en openen in de app; verwijderen rolt terug bij een opslagfout.",
+  "publishedAt": "2026-11-10T12:20:00Z"
 }
