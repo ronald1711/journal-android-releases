@@ -1,9 +1,9 @@
 {
-  "versionCode": 30,
-  "versionName": "1.24",
+  "versionCode": 31,
+  "versionName": "1.24.1",
   "minSdk": 26,
   "apkUrl": "https://github.com/ronald1711/journal-android-releases/releases/latest/download/Journal.apk",
-  "sha256": "6ca8b20dba77384b436daa315652ed035deb407083699911406f46664af755a8",
-  "releaseNotes": "Journal 1.24: privacy- en betrouwbaarheidsfixes. AI-verbruik overschrijft niet langer je toestemming of privacy-instellingen; volledige backup inclusief foto's met herstellen; afgebroken AI-antwoorden worden niet meer als compleet opgeslagen; dag- en weekoverzichten blijven volledig bewaard en openen in de app; verwijderen rolt terug bij een opslagfout.",
-  "publishedAt": "2026-11-10T12:20:00Z"
+  "sha256": "bd822e27bdd235800b75dbee6c6b69975a2d0bf627927705566dc5e7dd12cb11",
+  "releaseNotes": "Supermarktdetectie: kies zelf welke wifi- en Bluetooth-signalen bij de winkel horen. Bewerk bestaande footprints via Signalen om horloges en headsets uit te sluiten. Nieuwe scans beginnen zonder geselecteerde signalen.",
+  "publishedAt": "2026-11-18T10:21:20.916761Z"
 }
